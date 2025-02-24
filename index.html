@@ -3,48 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web </title>
-    <link rel="stylesheet" href="_css/main.css">
+    <title>TechStore - Tu tienda de tecnología</title>
+    <link rel="stylesheet" href="/_css/main.css"> 
 </head>
 <body>
-    <header class="header">
-        <h1>Venta de Celulares y Equipos</h1>
+    <!-- Encabezado -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">TechStore</div>
+            <div class="menu-toggle">☰</div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="/_pages/phone.html">Celulares</a></li>
+                    <li><a href="#">Portátiles</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav class="nav">
-        <ul class="nav-list">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="_pages/about.html">Servicios</a></li>
-        </ul>
-    </nav>
+    <!-- Banner principal -->
+    <section class="hero">
+        <h1>Tecnología de Vanguardia</h1>
+        <p>Descubre nuestra selección premium de equipos electrónicos: smartphones, laptops y accesorios.</p>
+        <a href="#" class="btn">Ver Ofertas</a>
+    </section>
 
-    <main class="main-content">
-        <section class="hero">
-            <h2>Bienvenido a Nuestro Sitio</h2>
-            <p>Aqui puedes comprar celulares y equipos a un buen precio</p>
-        </section>
+    <!-- Categorías destacadas -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Nuestras Categorías</h2>
+            <div class="category-container">
+                <div class="category-card">
+                    <img src="/_img/smartphones/poccox6pro.webp" alt="Smartphones" class="category-img">
+                    <div class="category-content">
+                        <h3>Smartphones</h3>
+                        <p>Descubre los últimos modelos de smartphones con tecnología de punta y precios increíbles.</p>
+                        <a href="_pages/phone.html" class="btn">Ver más</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="/_img/pc/portatil.jpg" alt="Portátiles" class="category-img">
+                    <div class="category-content">
+                        <h3>Portátiles</h3>
+                        <p>Encuentra el portátil perfecto para tus necesidades, ya sea para trabajo, estudio o gaming.</p>
+                        <a href="#" class="btn">Ver más</a>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="/_img/accesories/auriculare.jpg" alt="Accesorios" class="category-img">
+                    <div class="category-content">
+                        <h3>Accesorios</h3>
+                        <p>Complementa tus dispositivos con nuestros accesorios de alta calidad y rendimiento.</p>
+                        <a href="#" class="btn">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section class="features">
-            <div class="feature-card">
-                <h3>Super precios</h3>
-                <p>con descuentos insuperables</p>
-                <img src="/_img/descuento.svg" alt="Caracteristica 1">
+    <!-- Productos destacados -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Productos Destacados</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="/_img/smartphones/poccox6pro.webp" alt="Smartphone X" class="product-img">
+                    <div class="product-content">
+                        <h3>poccox6pro</h3>
+                        <span class="price">$1200000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/_img/pc/portatil.jpg" alt="Laptop " class="product-img">
+                    <div class="product-content">
+                        <h3>Laptop Acer Aspire 3</h3>
+                        <span class="price">$1500000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/_img/accesories/auriculare.jpg" alt="Auriculares" class="product-img">
+                    <div class="product-content">
+                        <h3>xiaomi redmi buds 4</h3>
+                        <span class="price">$60000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="/_img/smartphones/Realme GT Neo 5.jpg" alt="Realme" class="product-img">
+                    <div class="product-content">
+                        <h3>Realme GT Neo 5</h3>
+                        <span class="price">$1200000</span>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </div>
             </div>
-            <div class="feature-card">
-                <h3>Envios</h3>
-                <p>a toda Colombia</p>
-                <img src="/_img/Envios.svg" alt="Caracteristica 2">
-            </div>
-            <div class="feature-card">
-                <h3>Pagos Electronicos</h3>
-                <p>Seguros y garantizados</p>
-                <img src="/_img/pagosElectronicos.svg" alt="Caracteristica 3">
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer class="footer">
-        <p>2025 Sitio web de venta de celulares y equipos.</p>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>TechStore</h3>
+                <p>Tu tienda de confianza para encontrar los mejores equipos electrónicos a precios competitivos.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="celulares.html">Celulares</a></li>
+                    <li><a href="#">Portátiles</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>Dirección: SENA 52, Bogotá</li>
+                    <li>Teléfono: 32561651</li>
+                    <li>Email: info@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                    <a href="#">YT</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <p>2025 TechStore..</p>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Script para el menú responsive
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
